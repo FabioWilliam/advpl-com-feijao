@@ -30,6 +30,12 @@ DBFCDXADS
 MEMORY
 SQLITE
 CTREETMP
+
 */
 
  // "DBFCDX" Este é o padrao para ambientes DBF/CDXJMN
+
+/* outras informacoes
+http://tdn.totvs.com/display/tec/RDDName
+*/
+return 
