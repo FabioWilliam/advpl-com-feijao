@@ -38,4 +38,19 @@ CTREETMP
 /* outras informacoes
 http://tdn.totvs.com/display/tec/RDDName
 */
+
+DbSelectArea("SA2")
+_aEstru := DbStruct()
+_cArq := Criatrab(nil,.f.)
+
+dbCreate(_cArq,_aEstru,"DBFCDX")    // Vai Criar um arquivo .DTC ou .DBF conforme dicionario
+_cArq := soma1(_cArq)
+dbCreate(_cArq,_aEstru,"DBFCDXAXS") // Vai Criar um arquivo .DTC ou .DBF conforme dicionario
+''_cArq := soma1(_cArq)
+dbCreate(_cArq,_aEstru,"DBFCDXADS")  // Vai criar um arquivo .DBF
+''_cArq := soma1(_cArq)
+dbCreate(_cArq,_aEstru,"TOPCONN")  // Vai criar uma nova tabela no banco de dados relacional
+
+
+
 return 
